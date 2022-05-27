@@ -1,9 +1,4 @@
 <template>
-  <div class="common-layout">
-    <el-row justify="center">
-      <h1>Home</h1>
-    </el-row>
-
     <el-row justify="center">
       <el-upload
         class="avatar-uploader"
@@ -38,7 +33,6 @@
         <el-button type="primary" @click="post"> 發文 </el-button>
       </el-col>
     </el-row>
-  </div>
 </template>
 
 <script>
